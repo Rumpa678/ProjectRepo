@@ -18,7 +18,7 @@ import com.steller.objectrepository.Staffloginpage;
 
 import steller.utilities.Baseclass;
 
-public class Creditcrbyusingbaseclass extends Baseclass {
+public class CreditcrbyusingbaseclassTest extends Baseclass {
 	@Test(groups= {"smokeTest","regTest"})
 	public void creditcustomer() throws IOException {
 		Homepage hp=new Homepage(driver);

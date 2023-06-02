@@ -15,7 +15,7 @@ import com.steller.objectrepository.Staffloginpage;
 
 import steller.utilities.Baseclass;
 
-public class Registrationtest extends Baseclass{
+public class RegistrationTest extends Baseclass{
 	@Test
 	public void register() throws Exception {
 		//fetch the dta from property file

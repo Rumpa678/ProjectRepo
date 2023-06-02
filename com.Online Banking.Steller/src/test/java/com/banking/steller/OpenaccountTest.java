@@ -17,7 +17,7 @@ import com.steller.objectrepository.Staffloginpage;
 
 import steller.utilities.Baseclass;
 //@Listeners(steller.utilities.Listnerimplementation.class)
-public class Openaccounttest extends Baseclass {
+public class OpenaccountTest extends Baseclass {
 	@Test(groups= {"smokeTest","regTest"})
 	public void openacc() throws Exception {
 		Homepage hp=new Homepage(driver);

@@ -19,7 +19,7 @@ import com.steller.objectrepository.Staffloginpage;
 
 import steller.utilities.Baseclass;
 
-public class Fundotpverifications  extends Baseclass{
+public class FundotpverificationsTest  extends Baseclass{
 	@Test(groups= {"smokeTest","regTest"})
 	public void fundotpverify() throws EncryptedDocumentException, IOException, InterruptedException {
 		 Homepage hp=new Homepage(driver);

@@ -1,24 +1,19 @@
-import java.io.IOException;
+package com.banking.steller;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.steller.objectrepository.Addbenificiarypage;
 import com.steller.objectrepository.Creditcustomerpage;
-import com.steller.objectrepository.Customerloginpage;
-import com.steller.objectrepository.Customerprofilepage;
-import com.steller.objectrepository.Deletebenificiarypage;
-import com.steller.objectrepository.Fundtransferpage;
 import com.steller.objectrepository.Homepage;
 import com.steller.objectrepository.Staffhomepage;
 import com.steller.objectrepository.Staffloginpage;
 
 import steller.utilities.Baseclass;
 
-public class DemoTest extends Baseclass{
+public class DemoTest extends Baseclass {
 
 	@Test
-	public void demo1() throws Throwable  {
+public void demo1() throws Throwable  {
 		
 		Homepage hp=new Homepage(driver);
 	       Staffloginpage sp=new Staffloginpage(driver);
@@ -43,4 +38,8 @@ public class DemoTest extends Baseclass{
 		    cp.clickonCredit();
 		    wutil.switchToAlertPopupAndAccept( driver, "Amount credited Successfully to customer account");
 	}
-}
+		// TODO Auto-generated method stub
+
+	}
+
+

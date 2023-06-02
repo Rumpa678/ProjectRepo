@@ -29,7 +29,7 @@ public class Baseclass {
       public  WebDriver driver;
 	@BeforeSuite
 	public void config_BS() throws InterruptedException{
-		Thread.sleep(7000);
+//		Thread.sleep(7000);
 	System.out.println("connection to db");	
 	}
 	@AfterSuite(groups = {"smokeTest","regTest"})
@@ -55,7 +55,7 @@ public class Baseclass {
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 		}
-			sdriver=driver;
+//			sdriver=driver;
 			driver=new ChromeDriver();
 		wutil.maximizeWindow(driver);
 		

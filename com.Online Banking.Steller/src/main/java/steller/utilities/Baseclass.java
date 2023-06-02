@@ -29,7 +29,7 @@ public class Baseclass {
       public  WebDriver driver;
 	@BeforeSuite
 	public void config_BS() throws InterruptedException{
-		Thread.sleep(30000);
+		Thread.sleep(7000);
 	System.out.println("connection to db");	
 	}
 	@AfterSuite(groups = {"smokeTest","regTest"})

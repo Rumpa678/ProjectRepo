@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SampleTest {
 @Test
-public void fetch()
+public void fetching()
 	{
 	WebDriver driver;
 	String BROWSER=System.getProperty("Browser");

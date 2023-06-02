@@ -8,10 +8,11 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SampleTest {
+	WebDriver driver;
 @Test
 public void fetching()
 	{
-	WebDriver driver;
+	
 	String BROWSER=System.getProperty("Browser");
 		
 	String URL=System.getProperty("Url");
@@ -28,6 +29,7 @@ public void fetching()
 	else {
 		WebDriverManager.edgedriver().setup();
 	}
+	driver.get(URL);
 
 }
 }

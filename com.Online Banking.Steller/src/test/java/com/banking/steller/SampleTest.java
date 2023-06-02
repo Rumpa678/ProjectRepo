@@ -13,9 +13,9 @@ public class SampleTest {
 public void fetching()
 	{
 	
-	String BROWSER=System.getProperty("Browser");
+	String BROWSER=System.getProperty("browser");
 		
-	String URL=System.getProperty("Url");
+	String URL=System.getProperty("url");
 	if(BROWSER.equalsIgnoreCase("chrome"))
 	{
 		WebDriverManager.chromedriver().setup();
